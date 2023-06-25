@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a4a42fbf-424b-428e-ab16-be60cf5491cc": {
+      "ProjectGuid": "a4a42fbf-424b-428e-ab16-be60cf5491cc",
+      "DisplayName": "WebApplication2022_Core6_6th_RelationalDB",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

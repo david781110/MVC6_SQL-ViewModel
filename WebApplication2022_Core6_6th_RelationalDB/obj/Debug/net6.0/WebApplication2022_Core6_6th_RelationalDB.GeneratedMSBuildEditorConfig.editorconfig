@@ -1,0 +1,141 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication2022_Core6_6th_RelationalDB
+build_property.RootNamespace = WebApplication2022_Core6_6th_RelationalDB
+build_property.ProjectDir = C:\Users\david\Desktop\MIS2000範例\[Vimeo] ASP.NET MVC 動手做\MVC_06_關連式資料表\NetCore6_VS2022\WebApplication2022_Core6_6th_RelationalDB\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\david\Desktop\MIS2000範例\[Vimeo] ASP.NET MVC 動手做\MVC_06_關連式資料表\NetCore6_VS2022\WebApplication2022_Core6_6th_RelationalDB
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/Details2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxEZXRhaWxzMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/DetailsError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxEZXRhaWxzRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/Edit_比較版.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxFZGl0X+avlOi8g+eJiC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexJOIN.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleEpPSU4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexJOINMasterDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleEpPSU5NYXN0ZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHMyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails2_Navigation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHMyX05hdmlnYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails2_NavigationVM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHMyX05hdmlnYXRpb25WTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHMzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails3_GroupJoin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHMzX0dyb3VwSm9pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails3_Join.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHMzX0pvaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHM0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexMasterDetails5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleE1hc3RlckRldGFpbHM1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexVM1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleFZNMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexVM1_AdoNet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleFZNMV9BZG9OZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexVM2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleFZNMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/IndexVM2_AdoNet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleFZNMl9BZG9OZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/Index_AdoNet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxJbmRleF9BZG9OZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/UserDB2/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRCMlxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/MIS2000範例/\[Vimeo\] ASP.NET MVC 動手做/MVC_06_關連式資料表/NetCore6_VS2022/WebApplication2022_Core6_6th_RelationalDB/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n14ynuph3l
