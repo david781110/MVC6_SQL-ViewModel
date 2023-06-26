@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC6_SQL-ViewModel", "MVC6_SQL-ViewModel\MVC6_SQL-ViewModel.csproj", "{6EA4CDF2-F806-47B0-A350-F85BCBFB8350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA4CDF2-F806-47B0-A350-F85BCBFB8350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA4CDF2-F806-47B0-A350-F85BCBFB8350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA4CDF2-F806-47B0-A350-F85BCBFB8350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA4CDF2-F806-47B0-A350-F85BCBFB8350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29565705-E840-4E58-896E-39BF0AB01803}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,71 @@
+﻿@model MVC6_SQL_ViewModel.Models.DepartmentTable2
+@*
+    // 註解：請問 model與 Model兩個字（除了大小寫不同）有何差異？？
+    // @Model is "a property of the view" that refers to the model that was passed to the view from the controller.
+    // This property is strongly typed based on the data type specified in the @model directive at the top of the view.
+    // ***  @model occurs "only once" and specifies the "data type類別檔" of the model.
+    // ***  @Model allows you to reference "the value(值) for the model" passed to the view.
+
+    // 文章說明： When To Use IEnumerable, ICollection, IList And List（文章後面有一張圖）
+    // http://www.claudiobernasconi.ch/2013/07/22/when-to-use-ienumerable-icollection-ilist-and-list/
+    //  IEnumerable -- 只用於「唯讀」的資料展示。
+    //  ICollection -- 您想修改集合或關心其大小(size)。
+    //  IList -- 您想要修改集合，並關心集合中元素的排序和/或位置。
+*@
+
+@{
+    ViewData["Title"] = "IdexMasterDetails";
+}
+
+<h1>IdexMasterDetails</h1>
+
+<div>
+    <h4>DepartmentTable2一對多（一個科系 有 幾位學生？）</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DepartmentName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DepartmentName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DepartmentY)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DepartmentY)
+        </dd>
+    </dl>
+    <br /><hr /><br />
+    <!-- **** 以下不會自動產生，請自己動手寫 （模仿 List範本的 foreach迴圈，自己動手改）******************************************  -->
+    <table class="table table-striped table-hover">
+        <tr>
+            <td>學生ID</td>
+            <td>姓名</td>
+            <td>科系</td>
+        </tr>
+        @* //************************************************************
+        //*** 重點！一對多   （一個科系底下，有幾名學生？）
+        //************************************************************
+        *@
+        @foreach(var item in Model.UserTable2)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.UserId)<br/>
+                    <a asp-action="Edit" asp-route-id="@item.UserId">Edit(編輯 學生)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.DepartmentId)
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.DepartmentId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
