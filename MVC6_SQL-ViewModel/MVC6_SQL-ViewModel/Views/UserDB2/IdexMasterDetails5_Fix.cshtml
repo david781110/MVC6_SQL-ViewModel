@@ -1,0 +1,82 @@
+﻿@model IEnumerable<MVC6_SQL_ViewModel.Models.UserDepartmentViewModel>
+
+@{
+    ViewData["Title"] = "IdexMasterDetails5";
+}
+
+<h1>IdexMasterDetails5</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!-- ***** 以下全部 自己動手寫 *****  -->
+
+<table class="table">
+    @{
+        string DName = "";
+        string DYear = "";
+    }
+    <thead>
+        @foreach (var item in Model)
+        {
+            if (!string.IsNullOrEmpty(DName) && !string.IsNullOrEmpty(DYear))
+            {
+                if (DName == item.DepartmentVM.DepartmentName && DYear==item.DepartmentVM.DepartmentY)
+                {
+                    continue; //重複就忽略
+                }
+            }
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.DepartmentVM.DepartmentName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.DepartmentVM.DepartmentY)
+
+                    <hr />
+
+                    @{
+                        // 本次修改的地方（與上一個範例的差異）
+                        DName = item.DepartmentVM.DepartmentName;
+                        DYear = item.DepartmentVM.DepartmentY;
+                    }
+
+                    <!-- *** 底下這段，需自己動手寫 ******************************************  -->
+                    <!-- *** 請模仿第三個範例（IndexMasterDetails2）來做 ************** (start)  -->
+
+                    <table class="table table-striped">
+                        @foreach (var x in item.DepartmentVM.UserTable2)
+                        {
+                              <!-- *** 重點！！*********** -->
+                           @* <tr>
+                                <td>
+                                    @Html.DisplayNameFor(modelx=>x.UserId)
+                                </td>
+                                <td>
+                                    @Html.DisplayNameFor(modelx=>x.UserName)
+                                </td>
+                                <td>
+                                    @Html.DisplayNameFor(modelx=>x.DepartmentId)
+                                </td>
+                            </tr>*@
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelx=>x.UserId)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelx=>x.UserName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelx=>x.DepartmentId)
+                                </td>
+                            </tr>
+                        }
+                    </table>
+
+                </td>
+            </tr>
+        }
+    </thead>
+
+</table>

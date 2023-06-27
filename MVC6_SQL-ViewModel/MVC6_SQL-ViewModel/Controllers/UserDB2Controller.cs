@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using MVC6_SQL_ViewModel.Models;
+using SQLitePCL;
 
 namespace MVC6_SQL_ViewModel.Controllers
 {
@@ -175,5 +176,49 @@ namespace MVC6_SQL_ViewModel.Controllers
         }
 
 
+        public IActionResult IdexMasterDetails5_Fix()
+        {
+            var result = from d in _db.DepartmentTable2
+                         join u in _db.UserTable2 on d.DepartmentId equals u.DepartmentId
+                         select new UserDepartmentViewModel { DepartmentVM = d, UserVM = u };
+
+            return View(result.ToList());
+        }
+
+
+        // 同上一個 IndexMasterDetails5 範例。加入 group by (將查詢結果分組)
+        // 上一個範例（IndexMasterDetails5）有個嚴重的錯誤，在檢視畫面上，「科系」會重複出現
+        // (1) ***必須改用ViewModel*** 位於 Models2 目錄下的 UDViewModel.cs檔 （一對多）
+        // (2) 改用 .GroupJopin()方法來做
+        public IActionResult IndexMasterDetails5_GroupBy()
+        {
+            // .GroupJoin()方法   https://dotnettutorials.net/lesson/linq-group-join/
+            var GroupJoinMS = _db.DepartmentTable2.ToList()//Outer Data Source （科系）
+                                                                 //***************** .NET Core不加上這一句就會報錯，無法轉換格式！
+                                                 .GroupJoin(_db.UserTable2,//Inner Data Source（學生）
+                                                 dept => dept.DepartmentId,//Outer Key Selector  i.e. the Common Property
+                                                 stu => stu.DepartmentId,//Inner Key Selector  i.e. the Common Property
+                                                 (dept, stu) => new { dept, stu });//Projecting the Result to an Anonymous Type
+
+            // (2) 搭配 ViewModel，輸出檢視畫面
+            // 位於 Models2 目錄下的 UDViewModel.cs檔 （一對多）
+            List<UDViewModel> myList = new List<UDViewModel>();
+            foreach (var item in GroupJoinMS)
+            {
+                UDViewModel userUDViewModel = new UDViewModel();
+                userUDViewModel.DVM = item.dept; // (1) 科系。加入UDViewModel類別 (ViewModel)
+
+                // (2) 這個科系底下的所有「學生」。Inner Foreach loop for each employee of a Particular department
+                List<UserTable2>myStuList = new List<UserTable2>();  //這個科系底下的所有「學生」
+                foreach (UserTable2 student in item.stu)
+                {
+                    myStuList.Add(student);  //單一學生，加入 List裡面
+                }
+                userUDViewModel.UVM = myStuList; //把這個科系的「所有學生List<UserTable2>」加入UDViewModel類別 (ViewModel)裡面
+                // 學生。加入UDViewModel類別 (ViewModel)
+                myList.Add(userUDViewModel);
+            }
+            return View(myList);
+        }
     }
 }

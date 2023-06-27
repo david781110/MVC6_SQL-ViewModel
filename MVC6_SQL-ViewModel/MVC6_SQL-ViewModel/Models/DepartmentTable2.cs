@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MVC6_SQL_ViewModel.Models
 {
@@ -12,7 +13,7 @@ namespace MVC6_SQL_ViewModel.Models
         {
             UserTable2 = new HashSet<UserTable2>();
         }
-
+        [Key]
         public int DepartmentId { get; set; }
         public string DepartmentName { get; set; }
         public string DepartmentY { get; set; }

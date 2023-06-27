@@ -2,11 +2,13 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace MVC6_SQL_ViewModel.Models
 {
     public partial class UserTable2
     {
+        [Key]
         public int UserId { get; set; }
         public string UserName { get; set; }
         public string UserSex { get; set; }
